@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <!-- Vereiste meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Funny meme app for children as seen on tv || very funny games for kids 3+ || parents love it">
+    <meta name="msapplication-TileColor" content="#55b4da">
+    <meta name="theme-color" content="#55b4da">
+    <link rel="icon" type="image/png" sizes="32x32" href="Resources/bigtherat.png" >
+    <link rel="manifest" href="manifest.json" />
+    <title>Home</title>
+
+    <!-- Material.io bestanden (CSS & Font/icons)-->
+    <!-- Uitleg werking componenents: https://material.io/components?platform=web -->
+    <!-- Demo van components:         https://material-components.github.io/material-components-web-catalog/#/ -->
+    <!-- Demo en uitleg icons:        https://fonts.google.com/icons?selected=Material+Icons -->
+    <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>body{margin: 0;}</style>
+    
+    <!-- Material.io bestanden (JS en registratie componenten) -->
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script>const MDCBanner = mdc.banner.MDCBanner;const MDCCheckbox = mdc.checkbox.MDCCheckbox;const MDCChip = mdc.chips.MDCChip;const MDCChipSet = mdc.chips.MDCChipSet;const MDCCircularProgress = mdc.circularProgress.MDCCircularProgress;const MDCDataTable = mdc.dataTable.MDCDataTable;const MDCDialog = mdc.dialog.MDCDialog;const MDCDrawer = mdc.drawer.MDCDrawer;const MDCFloatingLabel = mdc.floatingLabel.MDCFloatingLabel;const MDCFormField = mdc.formField.MDCFormField;const MDCIconButtonToggle = mdc.iconButton.MDCIconButtonToggle;const MDCLineRipple = mdc.lineRipple.MDCLineRipple;const MDCLinearProgress = mdc.linearProgress.MDCLinearProgress;const MDCList = mdc.list.MDCList;const MDCMenu = mdc.menu.MDCMenu;const MDCMenuSurface = mdc.menuSurface.MDCMenuSurface;const MDCNotchedOutline = mdc.notchedOutline.MDCNotchedOutline;const MDCRadio = mdc.radio.MDCRadio;const MDCRipple = mdc.ripple.MDCRipple;const MDCSegmentedButton = mdc.segmentedButton.MDCSegmentedButton;const MDCSelect = mdc.select.MDCSelect;const MDCSlider = mdc.slider.MDCSlider;const MDCSnackbar = mdc.snackbar.MDCSnackbar;const MDCSwitch = mdc.switchControl.MDCSwitch;const MDCTabBar = mdc.tabBar.MDCTabBar;const MDCTextField = mdc.textField.MDCTextField;const MDCTooltip = mdc.tooltip.MDCTooltip;const MDCTopAppBar = mdc.topAppBar.MDCTopAppBar;</script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- HTML web-elementen -->   
+    <!-- Side menu-->
+    <aside class="mdc-drawer mdc-drawer--modal">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.com%2FoyaoPByRC4gAAAAM%2Fpolish.gif&f=1&nofb=1&ipt=e6757dff8c02a891940a504d852b8f94c4ed95808e6b03a6f93917a052dd3926&ipo=images">
+        <div class="mdc-drawer__header">
+            <h3 class="mdc-drawer__title">GRAAFSCHAP COLLEGE</h3>
+            <h6 class="mdc-drawer__subtitle">Altijd een meme</h6>
+        </div>
+        <div class="mdc-drawer__content">
+        <nav class="mdc-list">
+            <a class="mdc-list-item mdc-list-item--activated" href="#" aria-current="page">
+            <span class="mdc-list-item__ripple"></span>
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">home</i>
+            <span class="mdc-list-item__text">Home</span>
+            </a>
+            <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__ripple"></span>
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">chat</i>
+            <span class="mdc-list-item__text">Chat</span>
+            </a>
+            <a class="mdc-list-item" href="#">
+            <span class="mdc-list-item__ripple"></span>
+            <i class="material-icons mdc-list-item__graphic" aria-hidden="true">person</i>
+            <span class="mdc-list-item__text">Account</span>
+            </a>
+        </nav>
+        </div>
+    </aside>
+    <div class="mdc-drawer-scrim"></div>
+
+    <!--Header-->
+    <header class="mdc-top-app-bar">
+        <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button navButt" aria-label="Open navigation menu">menu</button>
+                <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button closeMeme hidden" aria-label="Close meme">close</button>
+                <span class="mdc-top-app-bar__title unselectable butt">Home</span>
+            </section>
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end" role="toolbar">
+                <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Search">search</button>
+                <button class="material-icons mdc-top-app-bar__action-item mdc-icon-button" aria-label="Options">more_vert</button>
+            </section>
+        </div>
+    </header>
+    <!--Main Content-->
+    <main class="mainContainer">
+        <!--Tab Bar-->
+        <div class="mdc-tab-bar" role="tablist">
+            <div class="mdc-tab-scroller">
+              <div class="mdc-tab-scroller__scroll-area">
+                <div class="mdc-tab-scroller__scroll-content">
+                  <button class="mdc-tab" role="tab" aria-selected="true" tabindex="0">
+                    <span class="mdc-tab__content">
+                        <span class="mdc-tab__text-label">Memes</span>
+                    </span>
+                    <span class="mdc-tab-indicator">
+                      <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                    <span class="mdc-tab__ripple"></span>
+                  </button>
+                  <button class="mdc-tab" role="tab" aria-selected="true" tabindex="0">
+                    <span class="mdc-tab__content">
+                      <span class="mdc-tab__text-label">Fails</span>
+                    </span>
+                    <span class="mdc-tab-indicator">
+                      <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                    <span class="mdc-tab__ripple"></span>
+                  </button>
+                  <button class="mdc-tab" role="tab" aria-selected="true" tabindex="0">
+                    <span class="mdc-tab__content">
+                      <span class="mdc-tab__text-label">Tweets</span>
+                    </span>
+                    <span class="mdc-tab-indicator">
+                      <span class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                    </span>
+                    <span class="mdc-tab__ripple"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <ul class="mdc-image-list mdc-image-list--masonry my-masonry-image-list">
+            <li class="mdc-image-list__item memeImage memes">
+              <img class="mdc-image-list__image" src="Resources/Cat Stare.png" title="Cat Stair">
+            </li>
+            <li class="mdc-image-list__item memeImage memes">
+                <img class="mdc-image-list__image" src="Resources/LongligiSpeenBig.gif" title="LongLigi">
+              </li>
+            <li class="mdc-image-list__item memeImage memes">
+                <img class="mdc-image-list__image" src="Resources/Spetteroski.png" title="Spetteroski">
+            </li>
+            <li class="mdc-image-list__item memeImage tweets">
+                <img class="mdc-image-list__image" src="Resources/brink3.0.gif" title="Brink">
+            </li>
+            <li class="mdc-image-list__item memeImage memes">
+                <img class="mdc-image-list__image" src="Resources/Noise plush.png" title="Noise Plush">
+            </li>
+            <li class="mdc-image-list__item memeImage tweets">
+                <img class="mdc-image-list__image" src="Resources/GitCommits.png" title="Git commits">
+            </li>
+            <li class="mdc-image-list__item memeImage fails">
+                <img class="mdc-image-list__image" src="Resources/KYS.png" title="KYS">
+            </li>
+            <li class="mdc-image-list__item memeImage fails">
+              <img class="mdc-image-list__image" src="Resources/speed.gif" title="Maxwell">
+            </li>
+            <li class="mdc-image-list__item memeImage tweets">
+              <img class="mdc-image-list__image" src="Resources/BabyFace.png" title="BabyFace">
+            </li>
+            <li class="mdc-image-list__item memeImage memes">
+              <img class="mdc-image-list__image" src="Resources/DonkeyBlink.gif" title="Donkey Kong Blink">
+            </li>
+            <li class="mdc-image-list__item memeImage memes">
+              <img class="mdc-image-list__image" src="Resources/DonkeyGawk.gif" title="Donkey Kong Gawk">
+            </li>
+            <li class="mdc-image-list__item memeImage memes">
+              <img class="mdc-image-list__image" src="Resources/DonkeyPog.gif" title="Donkey Kong Pog">
+            </li>
+            <li class="mdc-image-list__item memeImage memes">
+              <img class="mdc-image-list__image" src="Resources/DonkeyPrettyNice.gif" title="Donkey Kong Pretty Nice">
+            </li>
+            <li class="mdc-image-list__item memeImage memes">
+              <img class="mdc-image-list__image" src="Resources/DonkeyRock.gif" title="Donkey Kong Rock">
+            </li>
+            <li class="mdc-image-list__item memeImage tweets">
+              <img class="mdc-image-list__image" src="Resources/hurnt.png" title="Hurnt">
+            </li>
+            <li class="mdc-image-list__item memeImage memes">
+              <img class="mdc-image-list__image" src="Resources/Spoon1.jpg" title="I got a spoon">
+            </li>
+            <li class="mdc-image-list__item memeImage fails">
+              <img class="mdc-image-list__image" src="Resources/SYS.png" title="SYS">
+            </li>
+            <li class="mdc-image-list__item memeImage fails">
+              <img class="mdc-image-list__image" src="Resources/TylerClown.png" title="Tyler Clown">
+            </li>
+        </ul>
+    </main>
+    <!--Sheet-->
+    <span class="sheet sheet-out-of-view">
+      <main>
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.esa.io%2Fuploads%2Fproduction%2Fattachments%2F2352%2F2023%2F12%2F08%2F137977%2F29fd2f54-ce28-4e69-8e3b-b0df3cfe45f3.gif&f=1&nofb=1&ipt=57beb74cc41239fe879911dbcec0ffc9a3a46e05efb5ec6e3c68623a6ec14db4&ipo=images">
+      </main>
+      <footer>
+        <button class="material-icons mdc-tab__icon mdc-icon-button" aria-label="Like">thumb_up</button>
+        <button class="material-icons mdc-tab__icon mdc-icon-button" aria-label="Favorite">favorite</button>
+        <button class="material-icons mdc-tab__icon mdc-icon-button" aria-label="Dislike">thumb_down</button>
+      </footer>
+    </span>
+
+    
+    
+    <!--Vanaf hier custom Javascript-->
+    <script>
+        const topAppBarElement = document.querySelector('.mdc-top-app-bar');
+        const homeButt = document.querySelector('.mdc-top-app-bar__title')
+        const topAppBar = new MDCTopAppBar(topAppBarElement);
+
+        const drawer = MDCDrawer.attachTo(document.querySelector('.mdc-drawer'));
+        const listEl = document.querySelector('.mdc-drawer .mdc-list');
+        const tabBar = new MDCTabBar(document.querySelector('.mdc-tab-bar'));
+
+        const masonry = document.querySelector('.my-masonry-image-list');
+
+        window.addEventListener("load", () => {
+          if("serviceWorker" in navigator){
+            navigator.serviceWorker.register("service-worker.js")
+          }
+
+        });
+
+        addEventListener("popstate", (event) => 
+        { 
+          closeSheet()
+          // const url = window.location.href+""
+          // console.log(url)
+          // if(url.search("#sheet") != -1){
+          //   openSheet()
+          // }
+          // else if(url.search("#") === -1){
+          //   closeSheet()
+          // }
+        });
+
+        homeButt.addEventListener('click', (event) => {
+            let currentTab = document.querySelector('.mdc-tab--active')
+            let indicator = document.querySelector('.mdc-tab-indicator--active')
+            currentTab.classList.remove('mdc-tab--active')
+            indicator.classList.remove('mdc-tab-indicator--active')
+            openTab()
+        });
+
+        //Close Drawer
+        listEl.addEventListener('click', (event) => {
+            drawer.open = false;
+        });
+
+        //Open Drawer
+        const listButt = document.querySelector('.navButt');
+        listButt.addEventListener('click', (event) => {
+            drawer.open = true;
+        });
+
+        //Filter
+        const tabButtons = document.querySelector('.mdc-tab-bar');
+        tabButtons.addEventListener('click', (event) => {
+          const tab = document.querySelector('.mdc-tab--active');
+          if(tab === null){return;}
+          const tabName = tab.querySelector(".mdc-tab__text-label");
+          if(tabName === null){return;}
+          openTab(tabName.innerHTML.toLowerCase());
+
+        })
+        
+        //Open sheet
+        const images = document.querySelectorAll('.memeImage');
+        images.forEach(i =>{
+          i.addEventListener('click', (event) => {
+            openSheet(event);
+          });
+        });
+
+        //Close sheet
+        const closeMeme = document.querySelectorAll('.closeMeme');
+        closeMeme.forEach(i =>{
+          i.addEventListener('click', (event) => {
+              closeSheet(event);
+          });
+        });
+
+        //Open sheet
+        function openSheet(event = null)
+        {
+            history.pushState(null, "", location.pathname+"#sheet");
+
+            document.querySelector(".sheet").classList.toggle("sheet-out-of-view");
+            document.querySelector(".closeMeme").classList.remove("hidden")
+            document.querySelector(".mainContainer").classList.add("overflow")
+            document.querySelector(".navButt").classList.add("hidden")
+
+            if(event === null){return}
+            document.querySelector(".sheet img").setAttribute("src",event.srcElement.getAttribute("src"));
+            document.querySelector(".mdc-top-app-bar__title").innerHTML = event.srcElement.getAttribute("title");
+        }
+        //Close Sheet
+        function closeSheet(event = null)
+        {
+          history.pushState(null, "", location.pathname);
+
+          document.querySelector(".sheet").classList.toggle("sheet-out-of-view");
+          document.querySelector(".closeMeme").classList.add("hidden")
+          document.querySelector(".mainContainer").classList.remove("overflow")
+          document.querySelector(".navButt").classList.remove("hidden")
+          document.querySelector(".mdc-top-app-bar__title").innerHTML = "Home"
+        }
+        //Open tab
+        function openTab(tab = "memeImage")
+        {
+            document.querySelectorAll(".memeImage").forEach(i => { i.classList.add("hidden")});
+            document.querySelectorAll("."+tab).forEach(i => { i.classList.remove("hidden")});
+        }
+    </script>
+
+</body>
+
+</html>

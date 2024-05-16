@@ -1,0 +1,70 @@
+:root{
+    --mdc-theme-primary: #e0343a;
+}
+main{
+    padding-top: 56px;
+}
+.overflow{
+    overflow-y: hidden;
+    max-height: calc(100vh - 56px);
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.butt{
+    cursor: pointer;
+}
+.hidden
+{
+    display: none;
+}
+
+.memeImage{
+    width: 100%;
+    margin-bottom: 1em;
+}
+.my-masonry-image-list{
+    column-count: 2;
+}
+/*Sheet*/
+.sheet{
+    margin-top: 56px;
+    position: absolute;
+    top:0;
+    width: 100vw;
+    margin-left: 0;
+    background-color: #2e2e2e;
+    transition: 0.3s ease;
+}
+.sheet-out-of-view{
+    margin-left: -100%
+}
+.sheet main {
+    padding: 0;
+    min-height: calc(100vh - 56px - 48px);
+}
+
+.sheet img {
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--mdc-theme-primary);
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .mdc-tab__icon{
+    color: white !important;
+    min-height: 56px;
+}
